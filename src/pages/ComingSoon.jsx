@@ -6,9 +6,11 @@ import Logo from "../assets/Logo.png"
 import food1 from "../assets/Food1.png"
 import CTA from "../components/CTA"
 import PeopleEating from "../assets/People Eating.png"
+import Header from "../components/Header"
 const ComingSoon = () => {
   return (
     <div className="bg-primaryGreen lg:pt-[110px] pt-[60px] pb-0 lg:pb-[64px] w-full jost">
+        <Header/>
         <div className="pt-2.5 flex flex-col items-center lg:gap-28 gap-12 pb-7 lg:pb-24">
             <img className="lg:h-auto h-12" src={Logo}/>
             <div className="max-w-[600px] text-white lg:text-3xl text-lg text-center font-extralight animate-fade-in-up">
