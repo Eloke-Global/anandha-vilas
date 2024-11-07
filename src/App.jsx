@@ -9,6 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Event from "./views/Event";
 
 import ComingSoon from "./pages/ComingSoon";
+import Home from "./pages/Home"
+import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
+import Menu from "./pages/Menu"
 
 function App() {
 
@@ -17,9 +21,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<ComingSoon/>}/>
-          {/* <Route path="/login" element={<Login/>}/>
-          <Route path="/signup" element={<Signup/>}/>
-          <Route path="/event" element={<Event/>}/> */}
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/contactus" element={<ContactUs/>}/>
+          <Route path="/aboutus" element={<AboutUs/>}/>
+          <Route path="/menu" element={<Menu/>}/>
         </Routes>
       </Router>
     </>

@@ -9,7 +9,8 @@ export default {
       colors:{
         golden:"#C49871",
         primaryGreen:"#102B2A",
-        secGreen:"#042726"
+        secGreen:"#042726",
+        ylw:"#F6B801"
       },
       keyframes: {
         'fade-in-up': {
@@ -129,6 +130,9 @@ export default {
         'flip-y': 'flip-y 0.5s ease-out',
         'bounce-in': 'bounce-in 0.5s ease-out',
         'slide-in-elliptic': 'slide-in-elliptic 0.5s ease-out',
+      },
+      screens:{
+        '1920':'1920px'
       },
     },
     
