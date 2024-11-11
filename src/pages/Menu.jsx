@@ -13,19 +13,19 @@ const Menu = () =>{
             <Hero/>
             <PopularMenu/>
             <motion.div 
-            variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+            variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
             initial="offScreen" whileInView="onScreen" 
             viewport={{once:true}} 
             transition={{duration:1.5, type:"spring",}}
             className="flex items-center flex-col pt-[170px] pb-[40px] gap-8">
                 <motion.img 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
                 src={Menu1}/>
                 <motion.img 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}

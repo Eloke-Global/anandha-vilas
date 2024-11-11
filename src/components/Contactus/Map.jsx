@@ -5,14 +5,14 @@ const Map = () =>{
         <div className="w-full">
             <div className="mx-auto max-w-screen-1920 w-full flex  justify-center h-[750px]">
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
                 className="w-[1220px] relative">
                     <div className="h-[550px] bg-red-500"></div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -20,7 +20,7 @@ const Map = () =>{
                         Write here
                     </motion.div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}

@@ -5,7 +5,7 @@ const TraditionalFood = ()=>{
         <div className="w-full">
             <div className="w-full max-w-screen-1920 mx-auto py-[110px] relative z-40">
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
@@ -14,14 +14,14 @@ const TraditionalFood = ()=>{
                 </motion.div>
                 <div className="w-full mx-auto max-w-[1300px] flex items-center z-40">
                     <motion.img 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
                     className="z-40" src={LeftImg} alt="" />
                     <div className=" flex-1 flex flex-col gap-4">
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
@@ -32,13 +32,13 @@ const TraditionalFood = ()=>{
                             Since 1988
                         </motion.div>
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
                         className="uppercase font-semibold text-5xl">Wonderful Dining Experience and Food</motion.div>
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
@@ -48,7 +48,7 @@ const TraditionalFood = ()=>{
                             magna minim veniam nostrud exercitation.
                         </motion.div>
                         <motion.button 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
@@ -59,13 +59,13 @@ const TraditionalFood = ()=>{
                     </div>
                 </div>
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
                 className="flex w-full items-center justify-center gap-8 pt-12">
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -76,7 +76,7 @@ const TraditionalFood = ()=>{
                             </svg>
                         </div>
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
@@ -86,7 +86,7 @@ const TraditionalFood = ()=>{
                         </motion.div>
                     </motion.div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -98,7 +98,7 @@ const TraditionalFood = ()=>{
 
                         </div>
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}
@@ -108,7 +108,7 @@ const TraditionalFood = ()=>{
                         </motion.div>
                     </motion.div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -120,7 +120,7 @@ const TraditionalFood = ()=>{
 
                         </div>
                         <motion.div 
-                        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                         initial="offScreen" whileInView="onScreen" 
                         viewport={{once:true}} 
                         transition={{duration:1.5, type:"spring",}}

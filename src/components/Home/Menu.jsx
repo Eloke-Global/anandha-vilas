@@ -18,13 +18,13 @@ const Menu = () => {
         <div className="bg-ylw py-[110px] w-full">
             <div className="w-full max-w-1920 flex flex-col items-center gap-12">
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
                 className="text-center">
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -32,7 +32,7 @@ const Menu = () => {
                     POPULAR MENU
                 </motion.div>
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
@@ -59,7 +59,7 @@ const Menu = () => {
                 </motion.div>
                 <div className=""></div>
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}

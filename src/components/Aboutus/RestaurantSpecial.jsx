@@ -6,7 +6,7 @@ import Special3 from "../../assets/images/aboutus/Special3.png"
 const Card = ({image,title}) =>{
     return (
         <motion.div 
-        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"top",}, offScreen:{opacity:0, scale:0,}}} 
+        variants={{onScreen:{opacity:1,   transformOrigin:"top",}, offScreen:{opacity:0,  }}} 
         initial="offScreen" whileInView="onScreen" 
         viewport={{once:true}} 
         transition={{duration:1.5, type:"spring",}}
@@ -27,14 +27,14 @@ const RestaurantSpecial = () =>{
     return (
         <ComponentLayout classname="py-[110px] flex flex-col gap-16 items-center justify-center">
             <motion.div 
-            variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+            variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
             initial="offScreen" whileInView="onScreen" 
             viewport={{once:true}} 
             transition={{duration:1.5, type:"spring",}}
             className=" uppercase text-center">
                 - Restaurant Facilities -
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}

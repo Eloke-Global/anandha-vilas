@@ -18,13 +18,13 @@ const Hero = () =>{
                 </div>
             </div>
             <motion.div 
-            variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+            variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
             initial="offScreen" whileInView="onScreen" 
             viewport={{once:true}} 
             transition={{duration:1.5, type:"spring",}}
             className="h-[385px] bg-[#F6B801] flex ">
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"bottom",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"bottom",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
@@ -33,7 +33,7 @@ const Hero = () =>{
                 </motion.div>
                 <div className="p-16 flex-1 flex pt-[90px] gap-8">
                     <motion.svg 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"right",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"right",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -48,7 +48,7 @@ const Hero = () =>{
                         </defs>
                     </motion.svg>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}

@@ -5,7 +5,7 @@ const Contact = () =>{
         <div className="w-full">
             <div className="py-[110px] mx-auto max-w-screen-1920 flex items-center justify-center">
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
@@ -16,7 +16,7 @@ const Contact = () =>{
                         Lets talk us
                     </div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -27,7 +27,7 @@ const Contact = () =>{
                         </div>
                     </motion.div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
@@ -38,7 +38,7 @@ const Contact = () =>{
                         </div>
                     </motion.div>
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}

@@ -30,7 +30,7 @@ const menuItems = [
 const StarRating = ({ rating }) => {
     return (
         <motion.div 
-        variants={{onScreen:{opacity:1, scale:1, transformOrigin:"left",}, offScreen:{opacity:0, scale:0,}}} 
+        variants={{onScreen:{opacity:1,   transformOrigin:"left",}, offScreen:{opacity:0,  }}} 
         initial="offScreen" whileInView="onScreen" 
         viewport={{once:true}} 
         transition={{duration:1.5, type:"spring",}}
@@ -83,20 +83,20 @@ const SpecialOccasions = () => {
             <div className="flex w-full items-center justify-center flex-col gap-16">
                 <div className="text-center">
                     <motion.div 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:1.5, type:"spring",}}
                     className="text-yellow-500 text-sm font-medium mb-2">- MASTER CHEF'S SPECIAL -</motion.div>
                     <motion.h2 
-                    variants={{onScreen:{opacity:1, scale:1, transformOrigin:"top",}, offScreen:{opacity:0, scale:0,}}} 
+                    variants={{onScreen:{opacity:1,   transformOrigin:"top",}, offScreen:{opacity:0,  }}} 
                     initial="offScreen" whileInView="onScreen" 
                     viewport={{once:true}} 
                     transition={{duration:2.5, type:"spring",}}
                     className="text-3xl font-bold text-gray-800">FOR SPECIAL OCCASIONS</motion.h2>
                 </div>
                 <motion.div 
-                variants={{onScreen:{opacity:1, scale:1, transformOrigin:"center",}, offScreen:{opacity:0, scale:0,}}} 
+                variants={{onScreen:{opacity:1,   transformOrigin:"center",}, offScreen:{opacity:0,  }}} 
                 initial="offScreen" whileInView="onScreen" 
                 viewport={{once:true}} 
                 transition={{duration:1.5, type:"spring",}}
